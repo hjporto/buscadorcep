@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #160167;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  text-align: center;
+  color: white;
+}
+#container h1 {
+  font-size: 70px;
+}
+#container p {
+  font-size: 40px;
+}
+
+#container input {
+  font-size: 30px;
+  text-align: center;
+  width: 400px;
+  height: 50px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+#container button {
+  color: #010d66;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #d8cfff;
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 430px) {
+  #container h1 {
+    padding: 10px;
+    font-size: 45px;
+  }
+  #container p {
+    font-size: 30px;
+  }
+  #container input {
+    width: 80%;
+    margin: 10px;
+    cursor: pointer;
+  }
+}
+/* Developed by Hugo Porto */
